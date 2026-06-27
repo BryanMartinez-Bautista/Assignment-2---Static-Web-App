@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Character Details - Batman Universe Character Gallery</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body class="d-flex flex-column min-vh-100">
+        <!-- Navigation Bar -->
+         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-lg">
+                <a class="navbar-brand fw-bold" href="index.html"> Batman Universe Gallery</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="details.html">Details</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="new-character-form.html">Add a Character</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="flex-grow-1">
+            <div class="container-lg py-5">
+                <div class="character-details">
+                    <a href="index.html" class="btn btn-outline-secondary mb-4">&larr; Back to Gallery</a>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="mb-4">
+                                <img src="images/Batman.jpg" class="img-fluid rounded shadow" alt="Batman">
+                            </div>
+                            <div class="card">
+                                <div class="card-header bg-danger text-white"><strong>Quick Info</strong></div>
+                                
+                                <div class="card-body">
+                                    <h1 class="mb-2">Batman</h1>
+                                    <p class="lead text-muted mb-4">The Dark Knight of Gotham City, a vigilante hero who fights 
+                                        crime using advanced gadgets and detective skills.</p>
+                                    <p class="mb-2"><strong>Role:</strong><br><span class="badge bg-danger">Vigilante Hero</span></p>
+                                    <p class="mb-2"><strong>First Comic Appearance:</strong><br>Detective Comics #27 (May 1939)</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8">
+                            <h2 class="mt-4 mb-3">Backstory</h2>
+                            <p>Batman is a vigilante hero who fights crime in Gotham City. Behind the mask is Bruce Wayne, a wealthy businessman 
+                                and the owner of Wayne Enterprises. Bruce became Batman after both of his parents were killed in an alley outside
+                                 a theater when he was a child. Since then, he has dedicated his life to protecting Gotham City and stopping criminals. 
+                                 Using his wealth, intelligence, and advanced gadgets from Wayne Enterprises, Batman fights crime without having any superpowers.
+                            </p>
+                            
+                            <h2 class="mt-4 mb-3">Abilities</h2>
+                            <ul>
+                                <li>Master martial artist trained in multiple combat styles.</li>
+                                <li>Expert detective with exceptional intelligence.</li>
+                                <li>Uses advanced gadgets, vehicles, and technology to fight crime.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-5">
+                        <a href="index.html" class="btn btn-danger btn-lg">View All Characters</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-dark text-white text-center py-4 mt-5">
+            <p class="mb-0">&copy; 2026 Batman Universe Character Gallery. Created for class project.</p>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
